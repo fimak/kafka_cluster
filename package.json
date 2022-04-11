@@ -4,13 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "node ./index.js",
+    "start:producer": "node ./producer.js",
+    "start:consumer": "node ./consumer.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "kafkajs": "^1.16.0",
-    "npm-hook-receiver": "^1.0.0"
+    "kafkajs": "^1.16.0"
   }
 }
